@@ -18,6 +18,38 @@
 
 [Demos][demo-url] | [Documentation](./docs/README.md) | [Discord community](https://discord.gg/E6UthXZ)
 
+
+
+## INSTALLING V3 INSTRUCTION
+
+`npm install` (to install all dependencies! Know that chai dependencies were removed! For faster setup)
+
+Then you may like or need to install some package globally
+
+Try without it! If it doesn't work install them
+
+`npm i -g ttypescript npm-run-all typescript rollup dts-bundle-generator`
+
+Again try that once it doesn't work directly after npm install! It should do
+
+### build
+```sh
+npm run build
+```
+
+Some modification were made to avoid some errors (typically the --skipLibCheck flag)
+
+If no erro happens then super cool
+
+
+**Copy** and **Past** on node_modules
+
+It should work now
+
+
+## .......................
+
+
 TradingView Lightweight Charts are one of the smallest and fastest financial HTML5 charts.
 
 The Lightweight Charting Library is the best choice for you if you want to display financial data as an interactive chart on your web page without affecting your web page loading speed and performance.
