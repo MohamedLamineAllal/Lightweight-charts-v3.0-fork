@@ -22,29 +22,53 @@
 
 ## INSTALLING V3 INSTRUCTION
 
+This is a fork! For the v3 before it get released! Typically for us! But if you fall here! And may was in a situation like ours! We needed v3! Then suite yourself! It's all simple!
+
+### INSTALL DIRECTLY using npm or yarn
+
+```sh
+npm install git+https://github.com/MohamedLamineAllal/Lightweight-charts-v3.0-fork --save
+```
+
+or for yarn
+
+```sh
+yarn install git+https://github.com/MohamedLamineAllal/Lightweight-charts-v3.0-fork --save
+```
+
+The command above will automatically fetch the repo resolve the dependencies and install them and build it ! And add it to node_modules!
+Just as if it was fetched from an npm registry!
+
+
+
+## Buidling manually
+
 `npm install` (to install all dependencies! Know that chai dependencies were removed! For faster setup)
 
-Then you may like or need to install some package globally
-
-Try without it! If it doesn't work install them
-
-`npm i -g ttypescript npm-run-all typescript rollup dts-bundle-generator`
-
-Again try that once it doesn't work directly after npm install! It should do
+Build after it
 
 ### build
 ```sh
-npm run build
+npm run build:prod
 ```
+
+Note that you may like to install some packages globally (but not need)
+
+
+`npm i -g ttypescript npm-run-all typescript rollup dts-bundle-generator cross-env`
+
 
 Some modification were made to avoid some errors (typically the --skipLibCheck flag)
 
 If no erro happens then super cool
 
 
-**Copy** and **Past** on node_modules
+**Copy** and **Past** on node_modules ! With name lightweight-charts
 
 It should work now
+
+
+But well clearly you gonna go with the first option!
 
 
 ## .......................
